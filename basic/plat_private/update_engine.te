@@ -1,0 +1,3 @@
+# Allow update engine to get/set mtk persist pllnk property
+set_prop(update_engine, system_mtk_persist_pllnk_prop)
+get_prop(update_engine, system_mtk_persist_pllnk_prop)
