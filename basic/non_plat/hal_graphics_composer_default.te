@@ -78,3 +78,7 @@ get_prop(hal_graphics_composer_default, vendor_mtk_display_ro_prop)
 # Purpose: Add permission for simplehwc reading dmabuf_system_secure_heap_device
 allow hal_graphics_composer_default dmabuf_system_secure_heap_device:chr_file r_file_perms_no_map;
 
+# Allow composer interacts with surfaceflinger
+allow hal_graphics_composer_default surfaceflinger:dir search;
+allow hal_graphics_composer_default surfaceflinger:file rw_file_perms;
+allow hal_graphics_composer_default surfaceflinger:process { getsched setsched };
