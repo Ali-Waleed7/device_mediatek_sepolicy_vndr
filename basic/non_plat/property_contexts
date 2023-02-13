@@ -409,3 +409,11 @@ mtk.vendor.omx.core.log         u:object_r:vendor_mtk_omx_core_prop:s0
 ro.mtk_crossmount_support       u:object_r:vendor_mtk_crossmount_prop:s0
 ro.mtk_deinterlace_support      u:object_r:vendor_mtk_deinterlace_prop:s0
 ro.vendor.mtk_hdr_video_support u:object_r:vendor_mtk_hdr_video_prop:s0
+
+# IMEI
+persist.vendor.radio.imei      u:object_r:vendor_deviceid_prop:s0
+ro.vendor.oem.imei             u:object_r:vendor_deviceid_prop:s0
+persist.vendor.radio.meid      u:object_r:vendor_deviceid_prop:s0
+ro.vendor.oem.meid             u:object_r:vendor_deviceid_prop:s0
+ro.vendor.oem.sno              u:object_r:vendor_sno_prop:s0
+ro.vendor.oem.psno             u:object_r:vendor_sno_prop:s0

@@ -185,3 +185,10 @@ allow rild ccci_wifi_proxy_device:chr_file rw_file_perms;
 # Date: 2021/09/26
 # Purpose: Add permission for vilte
 allow rild ccci_vts_device:chr_file rw_file_perms_no_map;
+
+# Allow rild to get/set imei related props
+set_prop(rild, vendor_deviceid_prop)
+get_prop(rild, vendor_deviceid_prop)
+
+set_prop(rild, vendor_sno_prop)
+get_prop(rild, vendor_sno_prop)
