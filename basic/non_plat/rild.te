@@ -192,3 +192,6 @@ get_prop(rild, vendor_deviceid_prop)
 
 set_prop(rild, vendor_sno_prop)
 get_prop(rild, vendor_sno_prop)
+
+# Allow rild to access nvramagent
+hal_client_domain(rild, hal_mtk_nvramagent)
