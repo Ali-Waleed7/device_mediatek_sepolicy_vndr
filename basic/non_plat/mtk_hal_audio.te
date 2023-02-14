@@ -242,3 +242,6 @@ set_prop(mtk_hal_audio, vendor_mtk_audio_prop)
 get_prop(mtk_hal_audio, vendor_mtk_audio_prop)
 
 allow mtk_hal_audio hf_manager_device:chr_file rw_file_perms;
+
+allow mtk_hal_audio persist_data_file:dir r_dir_perms;
+allow mtk_hal_audio persist_data_file:{ file lnk_file } r_file_perms;
