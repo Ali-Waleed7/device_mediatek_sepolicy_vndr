@@ -240,3 +240,5 @@ allow mtk_hal_audio ccci_aud_device:chr_file rw_file_perms;
 
 set_prop(mtk_hal_audio, vendor_mtk_audio_prop)
 get_prop(mtk_hal_audio, vendor_mtk_audio_prop)
+
+allow mtk_hal_audio hf_manager_device:chr_file rw_file_perms;
