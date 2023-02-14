@@ -83,3 +83,6 @@ hal_client_domain(mtk_hal_sensors, hal_audio)
 # Allow to read/write scp files
 allow mtk_hal_sensors sysfs_scp:dir search;
 allow mtk_hal_sensors sysfs_scp:file rw_file_perms;
+
+# Allow to read/wirte sensors device
+allow mtk_hal_sensors sensors_device:chr_file rw_file_perms;
