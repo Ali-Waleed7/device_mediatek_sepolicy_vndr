@@ -56,6 +56,8 @@ persist.vendor.audio.    u:object_r:vendor_mtk_audio_prop:s0
 vendor.audio.            u:object_r:vendor_mtk_audio_prop:s0
 ro.vendor.audio.         u:object_r:vendor_mtk_ro_audio_prop:s0
 
+vendor.audio.voice       u:object_r:vendor_mtk_audio_voice_prop:s0
+
 persist.vendor.connsys.coredump.mode u:object_r:vendor_mtk_coredump_prop:s0
 persist.vendor.connsys.              u:object_r:vendor_mtk_wmt_prop:s0
 vendor.connsys.                      u:object_r:vendor_mtk_wmt_prop:s0
