@@ -229,6 +229,12 @@ vendor.vdo.cam.effect                 u:object_r:vendor_mtk_camera_prop:s0
 vendor.mtk.client.appmode             u:object_r:vendor_mtk_camera_prop:s0
 ro.vendor.mtk_video_hevc_enc_support  u:object_r:vendor_mtk_camera_prop:s0
 ro.vendor.hdr10plus.enable            u:object_r:vendor_mtk_camera_prop:s0
+vendor.debug.                         u:object_r:vendor_mtk_camera_prop:s0
+ro.vendor.mtkcam.                     u:object_r:vendor_mtk_camera_prop:s0
+vendor.mtkcam.                        u:object_r:vendor_mtk_camera_prop:s0
+vendor.camera.                        u:object_r:vendor_mtk_camera_prop:s0
+persist.vendor.camera.                u:object_r:vendor_mtk_camera_prop:s0
+ro.boot.camera.                       u:object_r:vendor_mtk_camera_prop:s0
 
 vendor.debug.gallery.loglevel u:object_r:vendor_mtk_gallery_prop:s0
 vendor.gallery.log.enable     u:object_r:vendor_mtk_gallery_prop:s0
