@@ -92,3 +92,5 @@ vendor.mediatek.hardware.bluetooth.audio::IBluetoothAudioProvidersFactory u:obje
 vendor.mediatek.hardware.composer_ext::IComposerExt u:object_r:mtk_hal_composer_ext_hwservice:s0
 
 vendor.mediatek.hardware.mtkcodecservice::IMtkCodecService u:object_r:hal_mtkcodecservice_hwservice:s0
+
+vendor.mediatek.hardware.wifi.hostapd_ext::IHostapdVendor             u:object_r:hal_wifi_hostapd_hwservice:s0
