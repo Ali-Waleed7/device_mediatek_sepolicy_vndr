@@ -921,6 +921,20 @@
 # Purpose: RayTracing related libraries
 /vendor/lib(64)?/libVkLayer_mtk_rt_sdk.so u:object_r:same_process_hal_file:s0
 
+# APU related libraries
+/vendor/lib(64)?/libapu-apuwareapusys\.mtk\.so            u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libapu-apuwareutils\.mtk\.so             u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libapu-apuwarexrp\.mtk\.so               u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libapu-frontend\.so                      u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libapu_mdw_batch.so                      u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libapu_mdw\.so                           u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libapu-platform\.so                      u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libapusys.so                             u:object_r:same_process_hal_file:s0
+
+/vendor/lib(64)?/vendor.mediatek.hardware.apuware.apusys@1.0\.so  u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/vendor.mediatek.hardware.apuware.utils@1.0\.so   u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/vendor.mediatek.hardware.apuware.xrp@1.0\.so     u:object_r:same_process_hal_file:s0
+
 ##########################
 # Others
 #
