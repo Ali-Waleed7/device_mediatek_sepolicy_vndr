@@ -54,3 +54,14 @@ media.VTS.HiDL                                          u:object_r:vtservice_hid
 # MICROTRUST SEPolicy Rule
 # for ifaa upgrade on android O
 ifaa_service     u:object_r:teei_ifaa_service:s0
+
+# Data: 2022/01/10
+# add telephony aidl
+android.hardware.radio.modem.IRadioModem/imsSlot1     u:object_r:hal_radio_service:s0
+android.hardware.radio.modem.IRadioModem/imsSlot2     u:object_r:hal_radio_service:s0
+android.hardware.radio.modem.IRadioModem/imsSlot3     u:object_r:hal_radio_service:s0
+android.hardware.radio.modem.IRadioModem/imsSlot4     u:object_r:hal_radio_service:s0
+android.hardware.radio.sim.IRadioSim/imsSlot1         u:object_r:hal_radio_service:s0
+android.hardware.radio.sim.IRadioSim/imsSlot2         u:object_r:hal_radio_service:s0
+android.hardware.radio.sim.IRadioSim/imsSlot3         u:object_r:hal_radio_service:s0
+android.hardware.radio.sim.IRadioSim/imsSlot4         u:object_r:hal_radio_service:s0
